@@ -1,0 +1,142 @@
+{
+  "option": {
+    "background": "rgba(11,21,56,1)",
+    "width": "auto",
+    "height": "auto",
+    "map": {
+      "show": true,
+      "padding": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 50
+      },
+      "scale": 0.87,
+      "background": "#05143A",
+      "rotate": {
+        "x": 35,
+        "y": -3,
+        "z": 9,
+        "perspective": 1000
+      },
+      "pattern": {
+        "show": true
+      },
+      "stroke": {
+        "color": "rgba(0, 199, 243, 0.2)",
+        "width": 1.2
+      },
+      "border": {
+        "show": true,
+        "color": "rgba(43, 176, 231, 0.25)",
+        "offset": {
+          "x": 0,
+          "y": 7
+        },
+        "blur": 2
+      },
+      "shadow": {
+        "show": true,
+        "color": "rgba(0,0,0,0.2)",
+        "offset": {
+          "x": -10,
+          "y": 20
+        },
+        "blur": 30
+      },
+      "label": {
+        "show": false,
+        "font": "11px Arial",
+        "color": "rgba(4, 204, 239, .5)"
+      }
+    },
+    "lines": {
+      "show": true,
+      "speed": {
+        "type": "linear",
+        "initial": 4.6,
+        "duration": 1000,
+        "variable": -1.2,
+        "min":1
+      },
+      "colors": ["#F59A87", "#BD97FF", "#70E0FF", "#69F467", "#FF7B04", "#CF93D9"],
+      "width": 2.3,
+      "curvature": 0.5,
+      "ripple": {
+        "show": true,
+        "speed": {
+          "type": "linear",
+          "initial": 1.5,
+          "duration": 1000,
+          "variable": 0
+        },
+        "radius": 25
+      },
+      "delay": 100,
+      "randomDelay": 0
+    },
+    "points": {
+      "show": true,
+      "width": 50,
+      "height": 50,
+      "label": {
+        "show": true,
+        "style": {
+          "color": "#fff",
+          "font-size": "16px",
+          "font-weight": "600",
+          "margin-top": "43px",
+          "text-shadow": "0px 0px 15px #005ce6,0px 0px 20px #005ce6"
+        }
+      },
+      "ripple": {
+        "show": false,
+        "width": 50,
+        "height": 30,
+        "options": [
+          {
+            "scale": 1,
+            "style": {
+              "background": "rgba(255,255,255, 0.3)"
+            },
+            "animate": true
+          },
+          {
+            "scale": 0.6,
+            "style": {
+              "background": "rgba(255, 255, 255, 0.4)"
+            },
+            "animate": false
+          },
+          {
+            "scale": 0.3,
+            "style": {
+              "background": "rgba(255, 255, 255, 0.6)"
+            },
+            "animate": false
+          },
+          {
+            "scale": 0.1,
+            "style": {
+              "background": "rgba(255, 255, 255, 1)"
+            },
+            "animate": false
+          }
+        ]
+      },
+      "illuminant": {
+        "show": true,
+        "width": 400,
+        "height": 240,
+        "animate": true
+      },
+      "enterAnima": true,
+      "loopAnima": true
+    },
+    "heatmap": {
+      "show": true,
+      "radius": 8,
+      "max": 250000
+    }
+  }
+}
