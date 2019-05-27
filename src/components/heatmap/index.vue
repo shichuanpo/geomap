@@ -134,9 +134,7 @@ export default {
   },
   mounted () {
     // 必须加
-    this.$nextTick(() => {
-      this.debounceTransData()
-    })
+    this.transData()
   }
 }
 </script>

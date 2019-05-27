@@ -123,7 +123,7 @@ export default {
         }
       })
       let time = Math.max.apply(null, Object.keys(this.lines).map(key => this.lines[key].times))
-      if (this.time !== time) {
+      if (this.time < time) {
         this.time = time
         this.$emit('flytimes', this.time)
       }
@@ -297,9 +297,7 @@ export default {
   },
   mounted () {
     // 必须加
-    this.$nextTick(() => {
-      this.debounceDraw()
-    })
+    this.draw()
   },
   beforeDestroy () {
     this.destroy()
